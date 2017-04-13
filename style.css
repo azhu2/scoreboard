@@ -1,0 +1,12 @@
+body {
+    font-family: "open sans";
+    -webkit-user-select: none;
+    text-align: center;
+}
+
+.score {
+    display: inline-block;
+    font-size: 15vmin;
+    padding: 10vmin;
+    width: 1.8em;
+}
