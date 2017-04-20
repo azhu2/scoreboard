@@ -14,3 +14,7 @@ body {
 .decrement {
     font-size: 2vmin;
 }
+
+:focus {
+    outline: none
+};
