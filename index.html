@@ -18,6 +18,9 @@
             <div ng-click="increment($index)">
                 {{score}}
             </div>
+            <md-button class="md-raised decrement" ng-click="decrement($index)">
+                -1
+            </md-button>
         </div>
     </div>
     <md-button class="md-raised md-warn" ng-click="reset()">Reset</md-button>

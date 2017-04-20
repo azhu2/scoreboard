@@ -10,3 +10,7 @@ body {
     padding: 10vmin;
     width: 1.8em;
 }
+
+.decrement {
+    font-size: 2vmin;
+}

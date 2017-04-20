@@ -7,6 +7,10 @@ angular.module('Scoreboard', ['ngMaterial'])
         $scope.scores[index]++;
     };
 
+    $scope.decrement = function(index) {
+        $scope.scores[index]--;
+    };
+
     $scope.reset = function() {
         for (var i = 0; i < $scope.scores.length; i++) {
             $scope.scores[i] = 0;
